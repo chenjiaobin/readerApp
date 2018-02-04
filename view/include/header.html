@@ -1,0 +1,84 @@
+<style>
+	.header-tab{
+		position: relative;
+		height: 44px;
+		padding: 0px 90px;
+		text-align: center;
+		line-height: 44px;
+		background: #efeff0;
+		border-bottom: 1px solid #ddd;
+	}
+	.header-tab i:before{
+		content: '';
+		display: block;
+		margin: 0 auto;
+		width: 34px;
+		height: 2px;
+		background: #777;
+	}
+	.header-tab a{
+		display:block;
+		margin: 0 auto;
+		width: 2em;
+	}
+	.header-tab a:nth-of-type(2):before{
+		content: '\4e66\67b6';
+	}
+	.header-tab a:nth-of-type(1):before{
+		content: '\4e66\57ce';
+	}
+	.header-user{
+		position: absolute;
+		right: 0px;
+        top:0px;
+        width: 44px;
+        height: 44px;
+        background: url(http://image.read.duokan.com/mfsv2/download/fdsc3/p01j041d5DOT/boUg2EJlVetOMC.png) no-repeat center;
+        background-size: 16px;
+	}
+	.header-checkin{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 44px;
+		height: 44px;
+		background: url(http://image.read.duokan.com/mfsv2/download/s010/p01O5K5DzsAZ/2ZODzjwkRQh7l3.png) no-repeat center;
+		background-size: 16px;
+	}
+	.swipe-tab{
+		position: relative;
+		overflow: hidden;
+		z-index: 1;
+	}
+	.swipe-tab i{
+		position: absolute;
+        left: 0;
+        bottom:-1px;
+		-webkit-transition:-webkit-transform .3 ease-out;
+	}
+	.swipe-tab a{
+		float: left;
+		text-align: center;
+		-webkit-tab-highlight-color:rgba(0,0,0,0);
+	}
+	.swipe-tab_2 a{
+		width: 50%;
+	}
+	.f-cb:after{
+		clear: both;
+		content: '';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		height: 0;
+	}
+</style>
+<div class="header-tab" id="app_header">
+	<div class="swipe-tab swipe-tab_2 f-cb">
+		<a href="javascript:void(0)"></a>
+		<a href="javascript:void(0)"></a>
+		<i style="width:90px;transition-duration:.5s;transform: translate3d(0px 0px 0px); "></i>
+	</div>
+	<em class="header-user"></em>
+	<em class="header-checkin"></em>
+</div>
