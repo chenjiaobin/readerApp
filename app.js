@@ -72,11 +72,12 @@ app.use(controller.get("/book",function *() {
 	var bookId = params.id;
 	this.body = yield render("book",{
 		title: "详情页",
+		nav:'书籍详情',
 		bookId: bookId
 	});
 }));
 //排行页面view
-app.use(controller.get('/rank',function*(){
+app.use(controller.get('/rank',function *(){
 	this.set('Cache-Control','no-cache');
 	this.body = yield render('rank',{
 		nav:'排行页面'
@@ -85,7 +86,14 @@ app.use(controller.get('/rank',function*(){
 app.use(controller.get("/search",function *() {
 	this.set("Cache-Control","no-cache");
 	this.body = yield render("search",{
+		nav:'搜索',
 		title: "搜索页"
+	});
+}));
+app.use(controller.get("/reader",function *() {
+	this.set("Cache-Control","no-cache");
+	this.body = yield render("reader",{
+		title: "看书"
 	});
 }));
 //gernerate是一种一部执行的方案，是一种语言特性，完异步函数的执行
@@ -144,6 +152,29 @@ app.use(controller.get("/ajax/search",function *() {
 	var keyword = params.keyword;
 	this.body = yield service.get_search_data(start,end,keyword);
 }));
+
+//目录view
+app.use(controller.get('/chapter',function*(){
+	this.set('Cache-Control','no-cache');
+	this.body = yield render('catolog',{nav:'目录'});
+}));
+
+//获取目录标题列表
+app.use(controller.get('/ajax/chapter', function*(){
+	this.set('Cache-Control', 'no-cache');
+	this.body = service.get_test_data('./mock/reader/chapter.json');
+}));
+
+app.use(controller.get('/ajax/chapter_data', function*(){
+	this.set('Cache-Control', 'no-cache');
+	var params = querystring.parse(this.req._parsedUrl.query);
+	var id = params.id;
+	if(!id){
+	   id = "";
+	}
+	this.body = service.get_chapter_content_data(id);
+}));
+
 app.listen(3001);
 console.log("koa is started");
 

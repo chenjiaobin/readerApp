@@ -1,0 +1,71 @@
+<style type="text/css">
+	.channel-h5_bottom{
+		border-top: 1px solid #f0f0f0;
+		overflow: hidden;
+	}
+	.channel-h5_bottom>a{
+		width: 50%;
+		float: left;
+		padding: 14px;
+		font:13px/1.3em a;
+		color: rgba(0,0,0,0.9);
+		box-sizing: border-box;
+		text-align: center;
+	}
+	.channel-h5_bottom>a:first-child{
+		border-right: 1px solid#f0f0f0;
+	}
+</style>
+<section class="channel-h5">
+	<div class="channel-h5__header">
+		<p class="channel-h5__title">
+			女生最爱
+		</p>
+	</div>
+	<div>
+		<div>
+			<ul class="list-h5">
+				<li v-for="item in recommend" v-if="$index==0">
+				  <a href="/book?id={{ item.fiction_id }}">
+					<div class="book-h5">
+						<div class="book-h5__cover">
+							<img src="chen/img/book-cover1.jpg">
+							<p class="book-h5__finish">完结</p>
+						</div>
+						<div class="book-h5__info">
+							<p class="book-h5__title">标题</p>
+							<p class="book-h5__author">作者</p>
+							<p class="book-h5__summary">简介</p>
+							<div class="book-h5__wrap">
+								<div class="book-h5__tag" v-for="tag in item.tags">标签</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</li>
+				<li v-for="item in recommend" v-if="$index==0">
+				  <a href="/book?id={{ item.fiction_id }}">
+					<div class="book-h5">
+						<div class="book-h5__cover">
+							<img src="chen/img/book-cover1.jpg">
+							<p class="book-h5__finish">完结</p>
+						</div>
+						<div class="book-h5__info">
+							<p class="book-h5__title">标题</p>
+							<p class="book-h5__author">作者</p>
+							<p class="book-h5__summary">简介</p>
+							<div class="book-h5__wrap">
+								<div class="book-h5__tag" v-for="tag in item.tags">标签</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="channel-h5_bottom">
+			<a href="javascript:void(0)">换一换</a>
+			<a href="/male">女生频道</a>
+		</div>
+	</div>
+</section>
