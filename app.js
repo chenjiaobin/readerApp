@@ -48,6 +48,7 @@ app.use(controller.get("/bookbacket",function *() {
 app.use(controller.get("/category",function *() {
 	this.set("Cache-Control","no-cache");
 	this.body = yield render("category",{
+		nav:'分类页面',
 		title: "分类页"
 	});
 }));
@@ -55,6 +56,7 @@ app.use(controller.get("/category",function *() {
 app.use(controller.get("/female",function *() {
 	this.set("Cache-Control","no-cache");
 	this.body = yield render("female",{
+		nav:'女生频道',
 		title: "女性页"
 	});
 }));
@@ -62,6 +64,7 @@ app.use(controller.get("/female",function *() {
 app.use(controller.get("/male",function *() {
 	this.set("Cache-Control","no-cache");
 	this.body = yield render("male",{
+		nav:'男生频道',
 		title: "男性页"
 	});
 }));

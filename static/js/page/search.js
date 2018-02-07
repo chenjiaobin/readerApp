@@ -1,9 +1,14 @@
+var windowWidth=$(window).width();
+	if(windowWidth<320){
+		windowWidth=320;
+	}
 new Vue({
 	el:"#search",
 	data:{
 		search:[],
 		condition:false,
-		empty:false
+		empty:false,
+		windowWidth:windowWidth
 	},
 	methods:{
 		doSearch:function(){

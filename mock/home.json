@@ -97,7 +97,50 @@
 			"total": 16,
 			"data": [{
 				"ad": 0,
-				"word_count": 1421277,
+				"word_count": 131477,
+				"owner": 0,
+				"allow_discount": 0,
+				"ad_time": 3,
+				"ad_duration": 5,
+				"score_count": 8,
+				"title": "兵王之王",
+				"on_sale": true,
+				"comment_count": 0,
+				"click": 2235302,
+				"latest_id": 13333,
+				"score": 9.25,
+				"allow_free_read": 1,
+				"rights_id": 1310039,
+				"channel": [2],
+				"updated": 131469441443,
+				"finish": false,
+				"tags": ["兵王之王", "军事", "武侠仙侠", "军旅生涯"],
+				"price": 5,
+				"chapter_count": 4,
+				"authors": "Bill",
+				"categories": [{
+					"category_id": 13130000,
+					"label": "兵王之王"
+				}, {
+					"category_id": 13130200,
+					"label": "军事"
+				}, {
+					"category_id": 1317000000,
+					"label": "武侠仙侠"
+				}, {
+					"category_id": 1317000300,
+					"label": "军旅生涯"
+				}],
+				"rights": "人民邮电出版社",
+				"level": 0,
+				"cover": "/chen/img/cover/bingwangZhiwang.jpg",
+				"summary": "王海面对佣兵、王牌特工、杀手集团、国际犯罪组织的围追堵截如入无人之地，任何困难险境中只凭一颗子弹就能击毙目标，将金钱、美女收入怀中，他被称之为----狙击天才。",
+				"fiction_id": 10234,
+				"outer_id": "5728793e50e3a4517cbed2a8",
+				"latest": "中国相关"
+			}, {
+				"ad": 0,
+				"word_count": 142177,
 				"owner": 0,
 				"allow_discount": 0,
 				"ad_time": 3,
@@ -220,7 +263,7 @@
 				"latest": "谢谢亲们的一路支持"
 			}, {
 				"ad": 0,
-				"word_count": 1145833,
+				"word_count": 11458,
 				"owner": 0,
 				"allow_discount": 0,
 				"ad_time": 3,
@@ -254,7 +297,7 @@
 				"summary": "当兵理由千百种。\r\n保家卫国？锻炼自己？谋个好出路？\r\n“这些…统统不是！”许言摆着手叫嚣，“老子是...",
 				"fiction_id": 319133,
 				"outer_id": "56fa3e7250e3a463f9de3f0e",
-				"latest": "第534章：大姐，别玩我好吗？"
+				"latest": "第5章：大姐，别玩我好吗？"
 			}, {
 				"ad": 0,
 				"word_count": 1281328,
@@ -807,13 +850,13 @@
 				"latest": "第706章 网吧情缘再现！"
 			}, {
 				"ad": 0,
-				"word_count": 1840048,
+				"word_count": 184008,
 				"owner": 0,
 				"allow_discount": 0,
 				"ad_time": 3,
 				"ad_duration": 5,
 				"score_count": 37,
-				"title": "我的娇美总裁老婆",
+				"title": "我的总裁老婆",
 				"on_sale": true,
 				"comment_count": 0,
 				"click": 1509006,
@@ -841,7 +884,7 @@
 				"summary": "【最火爆新书】\r\n我叫刘晨，喜欢女人，更喜欢征服女人，什么霸道女总裁，清纯妹子，火辣秘书，风流女大佬...",
 				"fiction_id": 321942,
 				"outer_id": "574d605f50e3a408f6ee6246",
-				"latest": "第874章 南乐从的崇拜者"
+				"latest": "第17章 南乐从的崇拜者"
 			}, {
 				"ad": 0,
 				"word_count": 2334360,
@@ -2024,10 +2067,10 @@
 				"summary": "手握玉坠空间，胡晓雯承包果园、养鱼、开办农家乐……\n随着她事业的发展壮大，原本穷困的小山村也逐渐变成...",
 				"fiction_id": 315363,
 				"outer_id": "5652e5ce50e3a4474c5fccc3",
-				"latest": "第 273 章"
+				"latest": "第 27 章"
 			}, {
 				"ad": 0,
-				"word_count": 1342262,
+				"word_count": 134262,
 				"owner": 0,
 				"allow_discount": false,
 				"ad_time": 3,
@@ -2067,10 +2110,10 @@
 				"summary": "男人在什么都不缺的时候说爱你才是真爱你。长得丑又穷的男人，并不比高富帅更靠谱。大富...",
 				"fiction_id": 45690,
 				"outer_id": "53d5f6890ea497289478e915",
-				"latest": "第1296章 致读者和新书预告"
+				"latest": "第12章 致读者和新书预告"
 			}, {
 				"ad": 0,
-				"word_count": 2819128,
+				"word_count": 289128,
 				"owner": 0,
 				"allow_discount": 0,
 				"ad_time": 3,
@@ -2110,7 +2153,7 @@
 				"summary": "她是二十四世纪的神偷，却穿越到了一个白痴废柴的身上，没爹没妈，还要看家族里那些人的脸色。白痴？废物？...",
 				"fiction_id": 295154,
 				"outer_id": "558234c250e3a4738f4c85e2",
-				"latest": "第2761章 番外1"
+				"latest": "第27章 番外1"
 			}, {
 				"ad": 0,
 				"word_count": 2636861,
@@ -2638,7 +2681,7 @@
 			"total": 16,
 			"data": [{
 				"ad": 0,
-				"word_count": 3390174,
+				"word_count": 390174,
 				"owner": 0,
 				"allow_discount": 0,
 				"ad_time": 3,
@@ -2678,10 +2721,10 @@
 				"summary": "小青年三年后回到故乡，他的身上多了一条龙。",
 				"fiction_id": 271034,
 				"outer_id": "5582339350e3a473914c7fd6",
-				"latest": "第1629章 解决"
+				"latest": "第16章 解决"
 			}, {
 				"ad": 0,
-				"word_count": 2676173,
+				"word_count": 267673,
 				"owner": 0,
 				"allow_discount": 0,
 				"ad_time": 3,
@@ -2715,7 +2758,7 @@
 				"summary": "这是一个兵进入0824的故事，这是一个只属于热血男儿的故事！",
 				"fiction_id": 315127,
 				"outer_id": "564c4d1350e3a467fc64daa6",
-				"latest": "第1299章 最高任务"
+				"latest": "第12章 最高任务"
 			}, {
 				"ad": 0,
 				"word_count": 1216461,
