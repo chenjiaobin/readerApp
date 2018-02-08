@@ -25,7 +25,11 @@ $.get("/ajax/index",function(data){
 			head_duration:0,
 			head_position:0,
 			tab_1_class:'tab-on',
-			tab_2_class:''
+			tab_2_class:'',
+			maleTime:0,
+			femaleTime:0,
+			maleReal:data.items[4].data.data,
+			femaleReal:data.items[3].data.data
 		},
 		methods:{
 			tabSwitch:function(pos){
@@ -45,6 +49,29 @@ $.get("/ajax/index",function(data){
 			},
 			switchToBook:function(){
 				location.href='/book?id=18218';
+			},
+			switchMaleBook:function(){
+				var that=this;
+				that.maleTime+=3;
+				that.male=[];
+				for(var i=that.maleTime;i<that.maleTime+3;i++){
+					if(i>=that.maleReal.length){
+						return;
+					}
+					that.male.push(that.maleReal[i]);
+				}
+			},
+			switchFemaleMaleBook:function(){
+				var that=this;
+				console.log(that.femaleReal.length);
+				that.femaleTime+=4;
+				that.female=[];
+				for(var i=that.femaleTime;i<that.femaleTime+4;i++){
+					if(i>=that.femaleReal.length){
+						return;
+					}
+					that.female.push(that.maleReal[i]);
+				}
 			}
 		}
 	})

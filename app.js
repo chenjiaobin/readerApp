@@ -79,6 +79,13 @@ app.use(controller.get("/book",function *() {
 		bookId: bookId
 	});
 }));
+
+app.use(controller.get("/usercenter",function *(){
+	this.set("Cache-Control","no-cache");
+	this.body=yield render("user-center",{
+		nav:'用户中心'
+	})
+}))
 //排行页面view
 app.use(controller.get('/rank',function *(){
 	this.set('Cache-Control','no-cache');
