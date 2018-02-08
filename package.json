@@ -17,6 +17,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "LMX",
+  "author": "chenjiaobin",
   "license": "ISC"
 }
