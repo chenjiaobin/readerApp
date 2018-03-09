@@ -7,9 +7,14 @@
 	<link rel="stylesheet" href="chen/css/all.css">
 	<link rel="stylesheet" href="chen/css/reset.css">
 	<title>书籍详情</title>
+	<style>
+		[v-cloak]{
+			display:none;//解决vue花括号数据闪烁的问题
+		}
+	</style>
 </head>
 <body>
-	<div id="book" style="overflow: hidden">
+	<div id="book" style="overflow: hidden" v-cloak>
 		<% include include/common-header.html %>
 			<div class="container-scroll contain-wrap">
 				<div class="book-page contain-scroll">
